@@ -1,0 +1,12 @@
+<!-- Inserts Reflexivity tab into User Profile Main Nav-->
+<section class="user-primary-navigation">
+  {{#mobile-nav class='main-nav' desktopClass="nav nav-pills user-nav" currentPath=currentPath}}
+
+  <li>
+    {{#link-to 'license'}}
+      {{ i18n "license.nav_title" }}
+    {{/link-to}}
+  </li>
+
+  {{/mobile-nav}}
+</section>
